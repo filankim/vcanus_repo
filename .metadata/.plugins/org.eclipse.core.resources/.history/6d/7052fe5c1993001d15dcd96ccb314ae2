@@ -1,0 +1,13 @@
+package com.vcanus.test01.bread;
+
+import java.util.Map;
+
+public class SugarBread implements Bread {
+	private String breadType;
+
+	@Override
+	public Map<String, Integer> getRecipe() {
+		// TODO Auto-generated method stub
+		
+	}
+}

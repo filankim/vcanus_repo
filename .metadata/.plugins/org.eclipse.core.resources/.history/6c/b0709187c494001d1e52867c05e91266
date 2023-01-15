@@ -1,0 +1,18 @@
+package com.vcanus.test04;
+
+public class Run {
+
+	public static void main(String[] args) {
+		long result = factorial(20);
+		System.out.println(result);
+	}
+
+	public static long factorial(long num) {
+		int result = 1;
+		while (num != 0) {
+			result *= num--;
+		}
+		return result;
+	}
+
+}

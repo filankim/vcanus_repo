@@ -1,0 +1,13 @@
+package com.vcanus.test01;
+
+public abstract class BreadFactory {
+	
+	public Bread newInstance() {
+		Bread bread = createBread();
+		return bread;
+	}
+	
+	protected abstract Bread createBread();
+	
+
+}

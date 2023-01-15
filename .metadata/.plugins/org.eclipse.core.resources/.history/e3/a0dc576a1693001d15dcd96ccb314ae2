@@ -1,0 +1,29 @@
+package com.vcanus.test01;
+
+public class Recipe {
+	private int flour;
+	private int water;
+	private int sugar;
+	
+	public Recipe(int flour, int water, int sugar) {
+		super();
+		this.flour = flour;
+		this.water = water;
+		this.sugar = sugar;
+	}
+
+	public int getFlour() {
+		return flour;
+	}
+
+	public int getWater() {
+		return water;
+	}
+
+	public int getSugar() {
+		return sugar;
+	}
+
+
+
+}

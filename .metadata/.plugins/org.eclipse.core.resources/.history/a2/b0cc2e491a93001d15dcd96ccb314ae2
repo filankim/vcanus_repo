@@ -1,0 +1,12 @@
+package com.vcanus.test01;
+
+import com.vcanus.test01.bread.Bread;
+import com.vcanus.test01.factory.BreadFactory;
+
+public class Run {
+	BreadFactory breadFactory = new BreadFactory();
+	Bread bread1 = breadFactory.newBread("cream");
+	Bread bread2 = breadFactory.newBread("sugar");
+	Bread bread3 = breadFactory.newBread("butter");
+	
+}

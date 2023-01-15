@@ -1,0 +1,13 @@
+package com.vcanus.test01.bread;
+
+import java.util.Map;
+
+public abstract class Bread {
+	private Strng breadType;
+	
+	public Bread(Strng breadType) {
+		this.breadType = breadType;
+	}
+
+	abstract Map<String, Integer> getRecipe();
+}

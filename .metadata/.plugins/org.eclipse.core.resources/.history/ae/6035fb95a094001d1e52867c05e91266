@@ -1,0 +1,8 @@
+package com.vcanus.test02;
+
+public class Calculator {
+	public int add(int num) {
+		return 0;
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.vcanus.test01.bread;
+
+public class CreamBread implements Bread {
+	private String breadType;
+
+	@Override
+	public void getRecipe() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

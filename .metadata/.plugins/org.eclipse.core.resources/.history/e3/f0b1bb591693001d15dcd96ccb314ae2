@@ -1,0 +1,7 @@
+package com.vcanus.test01.bread;
+
+public class ButterBread implements Bread{
+	private String breadType;
+	
+
+}

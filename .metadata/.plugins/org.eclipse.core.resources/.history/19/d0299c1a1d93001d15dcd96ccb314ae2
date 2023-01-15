@@ -1,0 +1,25 @@
+package com.vcanus.test01;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.vcanus.test01.bread.Bread;
+import com.vcanus.test01.bread.CreamBread;
+import com.vcanus.test01.factory.BreadFactory;
+
+public class Run {
+	public static void main(String[] args) {
+		BreadFactory breadFactory = new BreadFactory();
+		Bread bread1 = breadFactory.newBread("cream");
+		Bread bread2 = breadFactory.newBread("sugar");
+		Bread bread3 = breadFactory.newBread("butter");
+		((ButterBread)bread1)
+		
+		List<Bread> bList = new ArrayList<Bread>();
+		
+		for(Bread b : bList) {
+			
+		}
+	}
+
+}

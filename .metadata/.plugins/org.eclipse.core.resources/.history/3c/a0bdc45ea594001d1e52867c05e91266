@@ -1,0 +1,8 @@
+package com.vcanus.test03;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Factorial {
+	
+}

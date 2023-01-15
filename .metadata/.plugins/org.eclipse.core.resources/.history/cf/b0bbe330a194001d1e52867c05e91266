@@ -1,0 +1,15 @@
+package com.vcanus.test02;
+
+public class Calculator {
+	private int result;
+	
+	public int add(int num) {
+		this.result+=num;
+		return this;
+	}
+
+	public int substract(int num) {
+		return result - num;
+	}
+	
+}

@@ -1,0 +1,17 @@
+package com.vcanus.test01.factory;
+
+import com.vcanus.test01.bread.Bread;
+
+public abstract class BreadFactory { //Creator
+	
+	public Bread newBread(String breadType) {
+		Bread bread = createBread(breadType);
+		
+		
+		return bread;
+	}
+	
+	protected abstract Bread createBread(String breadType); //팩토리 메소드
+	
+
+}

@@ -1,0 +1,11 @@
+package com.vcanus.test03;
+
+public class Factorial {
+	private int result;
+	
+	public int factorial(int num) {
+		
+		result num;
+	}
+
+}

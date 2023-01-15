@@ -1,0 +1,23 @@
+package com.vcanus.test01.bread;
+
+import java.util.Map;
+
+public class CreamBread implements Bread {
+	private String breadType;
+
+	public CreamBread(String breadType) {
+		super();
+		this.breadType = breadType;
+	}
+	
+	public String getBreadType() {
+		return breadType;
+	}
+
+	@Override
+	public Map<String, Integer> getRecipe() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

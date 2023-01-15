@@ -1,0 +1,24 @@
+package com.vcanus.test01.bread;
+
+import java.util.Map;
+
+public class ButterBread implements Bread{
+	private String breadType;
+
+	
+	
+	public ButterBread(String breadType) {
+		super();
+		this.breadType = breadType;
+	}
+
+
+
+	@Override
+	public Map<String, Integer> getRecipe() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

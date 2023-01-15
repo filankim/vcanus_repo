@@ -1,0 +1,8 @@
+package com.vcanus.test01.bread;
+
+import com.vcanus.test01.Recipe;
+
+public class ButterBread implements Bread{
+	
+
+}
