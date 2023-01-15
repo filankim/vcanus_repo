@@ -1,8 +1,0 @@
-package com.vcanus.test01;
-
-import com.vcanus.test01.bread.Bread;
-
-
-public class Run {
-	
-}

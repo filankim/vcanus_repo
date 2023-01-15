@@ -1,6 +1,0 @@
-package com.vcanus.test01.bread;
-
-public interface Bread {
-
-	
-}

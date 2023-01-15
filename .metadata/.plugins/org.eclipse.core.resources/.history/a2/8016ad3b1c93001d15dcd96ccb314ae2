@@ -1,7 +1,0 @@
-package com.vcanus.test01.bread;
-
-import java.util.Map;
-
-public interface Bread {
-	Map<String, Integer> getRecipe();
-}

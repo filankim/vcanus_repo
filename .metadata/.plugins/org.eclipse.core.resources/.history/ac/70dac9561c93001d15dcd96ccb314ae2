@@ -1,7 +1,0 @@
-package com.vcanus.test01.bread;
-
-import java.util.Map;
-
-public abstract class Bread {
-	abstract Map<String, Integer> getRec0ipe();
-}
